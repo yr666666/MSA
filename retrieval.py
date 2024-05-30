@@ -47,13 +47,13 @@ def plot_and_save_metrics(data, title="Training Progress", ylabel="Value", filen
 def parser_options():
     # Hyper Parameters setting
     parser = argparse.ArgumentParser()
-    parser.add_argument('--path_opt', default='option/RSITMD_AMFMN.yaml', type=str,
+    parser.add_argument('--path_opt', default='option/RSITMD.yaml', type=str,
                         help='path to a yaml options file') 
-    # parser.add_argument('--path_opt', default='option/UCM_AMFMN.yaml', type=str,
+    # parser.add_argument('--path_opt', default='option/UCM.yaml', type=str,
                     # help='path to a yaml options file')
-    # parser.add_argument('--path_opt', default='option/RSICD_AMFMN.yaml', type=str,
+    # parser.add_argument('--path_opt', default='option/RSICD.yaml', type=str,
                         # help='path to a yaml options file')
-    # parser.add_argument('--path_opt', default='option/SYDNEY_AMFMN.yaml', type=str,
+    # parser.add_argument('--path_opt', default='option/SYDNEY.yaml', type=str,
                     # help='path to a yaml options file')
 
     opt = parser.parse_args()
