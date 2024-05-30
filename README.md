@@ -1,5 +1,6 @@
 # MSA
 Code of paper “Transcending Fusion: A Multi Scale Alignment Method for Remote Sensing Image Text Retrieval”
+Arxiv:https://arxiv.org/pdf/2405.18959
 
 **Preparation:**
 
